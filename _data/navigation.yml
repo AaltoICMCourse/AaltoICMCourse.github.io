@@ -21,6 +21,8 @@
   dropdown:
   - title: "Grid & Colors"
     url: "/design/grid/"
+  - title: "Grid & Colors"
+    url: "/design/grid/"
 
 - title: "Templates"
   url: "/design/"
