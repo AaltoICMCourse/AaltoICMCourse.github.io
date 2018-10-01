@@ -25,7 +25,7 @@ author: Aalto University
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://AaltoIcmcourse.github.io'
+url: 'http://aaltoicmcourse.github.io'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
@@ -38,7 +38,7 @@ improve_content: https://github.com/AaltoICMCourse/AaltoICMCourse.github.io/edit
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://AaltoICMCourse.github.io/images/'
+urlimg: 'https://phlow.github.io/feeling-responsive/images/'
 
 
 # Logo size is 600x80 pixels
