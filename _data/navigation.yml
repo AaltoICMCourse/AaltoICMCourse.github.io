@@ -2,10 +2,29 @@
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
+- title: Introcution
+  url: "/introduction/"
   side: left
 
+- title: "Lectures"
+  url: "/lectures/"
+  side: left
+  dropdown:
+  - title: "Grid & Colors"
+    url: "/design/grid/"
+  - title: "Grid & Colors"
+    url: "/design/grid/"
+	
+- title: "Examples"
+  url: "/examples/"
+  side: left
+  dropdown:
+  - title: "Grid & Colors"
+    url: "/design/grid/"
+    dropdown:
+    - title: "Grid & Colors"
+      url: "/design/grid/"
+	
 - title: "Templates"
   url: "/design/"
   side: left
