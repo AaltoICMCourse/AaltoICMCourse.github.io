@@ -8,6 +8,7 @@ breadcrumb: true
 categories:
     - examples-python-audio-visual
 permalink: /examples-unity-games/template/
+header: no
 tags:
     - Games
     - Unity

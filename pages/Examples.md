@@ -3,8 +3,7 @@ layout: page
 show_meta: false
 title: "Examples"
 subheadline: "Applications of Computational Intellicence"
-header:
-   image_fullwidth: "logo.png"
+header: no
 permalink: "/examples/"
 ---
 <ul>
