@@ -7,6 +7,7 @@ header:
     title: Intelligent Computational Media
     background-color: "#4286f4;"
 permalink: "/examples/python-visual/"
+breadcrumb: true
 ---
 
 <ul>

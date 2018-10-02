@@ -1,12 +1,13 @@
 ---
 layout: page
 show_meta: false
-title: "Lecture"
+title: "Lectures"
 subheadline: ""
 header:
     title: Intelligent Computational Media
     background-color: "#4286f4;"
 permalink: "/lectures/"
+breadcrumb: true
 ---
 
 <ul>

@@ -16,6 +16,7 @@ widget1:
 widget2:
   title: "Lectures"
   url: '/lectures/'
+  image: widget-1-302x182.jpg
   text: 'lectures lecture lectures lectures description. Can use html.'
 widget3:
   title: "Examples"

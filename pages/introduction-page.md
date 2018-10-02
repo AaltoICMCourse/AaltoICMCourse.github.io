@@ -8,6 +8,7 @@ header:
     title: Intelligent Computational Media
     background-color: "#4286f4;"
 permalink: "/introduction/"
+breadcrumb: true
 ---
 1. Blablabla
 1. Blablabla
