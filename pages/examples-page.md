@@ -7,52 +7,25 @@ header: no
 permalink: "/examples/"
 ---
 
-<ul>
-	{% for post in site.categories.example-unity %}
-	  <div class="row">
-		<div class="small-12 columns b60">
-		  <p class="subheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if post.categories != empty and post.subheadline != NULL %} – {% endif %}{{ post.subheadline }}</p>
-		  <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-		  <p>
-			{% if post.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+<div class="row">
+  <div class="large-4 columns">
+  <a href="">
+    <img src="http://placehold.it/303x170/e05a10/e1e75e&amp;text=Width+303+Pixel">
+  </a>
+	<h2 class="font-size-h3 t10">Title</h2>
+	<p>short description </p>
+	<p><a class="button tiny radius" href="">Go</a></p>
+  </div>
+  <div class="large-4 columns">
+        <a href="">
+    <img src="http://placehold.it/303x170/e05a10/e1e75e&amp;text=Width+303+Pixel">
+  </a>
+	<h2 class="font-size-h3 t10">Title</h2>
+	<p>short description </p>
+	<p><a class="button tiny radius" href="">Go</a></p>
+  </div>
+  <div class="large-4 columns">
+      <img src="http://placehold.it/303x170/fabb00/771e1e&amp;text=Width+303+Pixel">
+  </div>
+</div>
 
-			{% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
-
-			<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
-		  </p>
-		</div><!-- /.small-12.columns -->
-	  </div><!-- /.row -->
-    {% endfor %}
-	
-		{% for post in site.categories.example-python-audio %}
-	  <div class="row">
-		<div class="small-12 columns b60">
-		  <p class="subheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if post.categories != empty and post.subheadline != NULL %} – {% endif %}{{ post.subheadline }}</p>
-		  <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-		  <p>
-			{% if post.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
-
-			{% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
-
-			<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
-		  </p>
-		</div><!-- /.small-12.columns -->
-	  </div><!-- /.row -->
-    {% endfor %}
-	
-		{% for post in site.categories.example-python-visual %}
-	  <div class="row">
-		<div class="small-12 columns b60">
-		  <p class="subheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if post.categories != empty and post.subheadline != NULL %} – {% endif %}{{ post.subheadline }}</p>
-		  <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-		  <p>
-			{% if post.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
-
-			{% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
-
-			<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
-		  </p>
-		</div><!-- /.small-12.columns -->
-	  </div><!-- /.row -->
-    {% endfor %}
-</ul>
