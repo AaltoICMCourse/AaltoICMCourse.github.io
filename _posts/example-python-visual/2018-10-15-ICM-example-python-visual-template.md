@@ -1,14 +1,13 @@
 ---
 layout: page
-subheadline: Example Template Visual
+subheadline: Example Template Audio
 title:  "The ICM Example Template Visual"
 teaser: "Teaser. We can right the short description of the example here. It is shown below the title in the post and in the short description of the list of posts page."
 meta_teaser: "This is an example of a beautiful aligned post in the middle. There is no sidebar to distract the reader. The difference to the Page-Template is, that you find meta-information at the bottom of the post."
 breadcrumb: true
 categories:
-    - example-python
-	- visual
-permalink: /examples/python/visual/template/
+    - example-python-audio
+permalink: /examples/python/audio/template/
 header:
     title: Intelligent Computational Media
     background-color: "#4286f4;"

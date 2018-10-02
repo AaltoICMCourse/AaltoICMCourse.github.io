@@ -10,7 +10,6 @@ header:
     background-color: "#4286f4;"
 categories:
     - example-unity
-	- game
 permalink: /examples/unity/template/
 tags:
     - Games
