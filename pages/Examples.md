@@ -6,6 +6,7 @@ subheadline: "Applications of Computational Intellicence"
 header: no
 permalink: "/examples/"
 ---
+
 <ul>
 	{% for post in site.categories.examples-python-audio-visual %}
 	  <div class="row">
