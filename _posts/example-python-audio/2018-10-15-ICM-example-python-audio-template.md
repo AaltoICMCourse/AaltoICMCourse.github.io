@@ -13,7 +13,7 @@ header:
     background-color: "#4286f4;"
 tags:
     - Audio
-	- Python
+    - Python
 image:
     thumb:  logo.png
     homepage: logo.png

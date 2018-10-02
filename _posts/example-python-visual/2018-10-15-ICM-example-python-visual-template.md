@@ -13,7 +13,7 @@ header:
     background-color: "#4286f4;"
 tags:
     - Visual
-	- Python
+    - Python
 image:
     thumb:  logo.png
     homepage: logo.png
