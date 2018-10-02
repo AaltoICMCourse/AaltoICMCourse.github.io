@@ -9,9 +9,7 @@ header:
     title: Intelligent Computational Media
     background-color: "#EFC94C;"
 categories:
-    - examples
-	- games
-	- unity
+    - examples-python-audio-visual
 permalink: /examples/unity/template/
 tags:
     - Games
