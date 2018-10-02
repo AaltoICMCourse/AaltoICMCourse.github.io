@@ -19,16 +19,12 @@
   url: "/examples/"
   side: left
   dropdown:
-  - title: "Python(Audio/Visual)"
-    url: "/design/grid/"
-  - title: "Unity(Games/AI)"
-    url: "/design/grid/"
-  - title: "Unity Example Template"
-    url: "/examples/unity/template/"
-  - title: "Python Audio Example Template"
-    url: "/examples/python/audio/template/"
-  - title: "Python Visual Example Template"
-    url: "/examples/python/visual/template/"
+  - title: "Audio"
+    url: "/examples/python-audio/"
+  - title: "Unity"
+    url: "/examples/unity/"
+  - title: "Visual"
+    url: "/examples/python-visual/"
 
 - title: Blog
   url: "/blog/"

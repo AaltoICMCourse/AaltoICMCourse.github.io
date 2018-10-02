@@ -11,23 +11,28 @@ permalink: "/examples/"
 
 <div class="row">
   <div class="large-4 columns">
-  <a href="">
+  <a href="/examples/unity/">
     <img src="http://placehold.it/303x170/e05a10/e1e75e&amp;text=Width+303+Pixel">
   </a>
-	<h2 class="font-size-h3 t10">Title</h2>
+	<h2 class="font-size-h3 t10">Unity Examples</h2>
 	<p>short description </p>
-	<p><a class="button tiny radius" href="">Go</a></p>
+	<p><a class="button tiny radius" href="/examples/unity/">Go</a></p>
   </div>
   <div class="large-4 columns">
-        <a href="">
+        <a href="/examples/python-audio/">
     <img src="http://placehold.it/303x170/e05a10/e1e75e&amp;text=Width+303+Pixel">
   </a>
-	<h2 class="font-size-h3 t10">Title</h2>
+	<h2 class="font-size-h3 t10">Python Examples for Audio</h2>
 	<p>short description </p>
-	<p><a class="button tiny radius" href="">Go</a></p>
+	<p><a class="button tiny radius" href="/examples/python-audio/">Go</a></p>
   </div>
   <div class="large-4 columns">
-      <img src="http://placehold.it/303x170/fabb00/771e1e&amp;text=Width+303+Pixel">
+              <a href="/examples/python-visual/">
+    <img src="http://placehold.it/303x170/e05a10/e1e75e&amp;text=Width+303+Pixel">
+  </a>
+	<h2 class="font-size-h3 t10">Python Examples for Visual</h2>
+	<p>short description </p>
+	<p><a class="button tiny radius" href="/examples/python-visual/">Go</a></p>
   </div>
 </div>
 

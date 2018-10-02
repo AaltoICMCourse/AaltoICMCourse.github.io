@@ -4,7 +4,7 @@ show_meta: false
 title: "Python Examples for Visual"
 subheadline: ""
 header: no
-permalink: "/examples/python/visual/"
+permalink: "/examples/python-visual/"
 ---
 
 <ul>

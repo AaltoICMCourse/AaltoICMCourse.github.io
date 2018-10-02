@@ -4,7 +4,7 @@ show_meta: false
 title: "Python Examples for Audio"
 subheadline: ""
 header: no
-permalink: "/examples/python/audio/"
+permalink: "/examples/python-audio/"
 ---
 
 <ul>
