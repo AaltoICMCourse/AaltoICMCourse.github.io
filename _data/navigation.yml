@@ -27,7 +27,7 @@
     url: "/examples/unity/template/"
   - title: "Python Example Template"
     url: "/examples/python/visual/template/"
-	
+
 - title: Blog
   url: "/blog/"
   side: left
