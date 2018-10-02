@@ -15,8 +15,6 @@ tags:
     - Visual
     - Python
 image:
-    thumb:  logo.png
-    homepage: logo.png
     title: logo.png
     caption: image caption
     caption_url: 
