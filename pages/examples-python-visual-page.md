@@ -3,7 +3,9 @@ layout: page
 show_meta: false
 title: "Python Examples for Visual"
 subheadline: ""
-header: no
+header:
+    title: Intelligent Computational Media
+    background-color: "#4286f4;"
 permalink: "/examples/python-visual/"
 ---
 

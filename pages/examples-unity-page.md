@@ -3,7 +3,9 @@ layout: page
 show_meta: false
 title: "Unity Examples"
 subheadline: "machine learning applications in games"
-header: no
+header:
+    title: Intelligent Computational Media
+    background-color: "#4286f4;"
 permalink: "/examples/unity/"
 ---
 

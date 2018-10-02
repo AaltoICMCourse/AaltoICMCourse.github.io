@@ -1,17 +1,16 @@
 ---
 layout: page
 show_meta: false
-title: "Python Examples for Audio"
+title: "Lecture"
 subheadline: ""
 header:
     title: Intelligent Computational Media
     background-color: "#4286f4;"
-permalink: "/examples/python-audio/"
+permalink: "/lectures/"
 ---
 
 <ul>
-
-		{% for post in site.categories.example-python-audio %}
+	{% for post in site.categories.lecture %}
 	  <div class="row">
 		<div class="small-12 columns b60">
 		  <p class="subheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if post.categories != empty and post.subheadline != NULL %} – {% endif %}{{ post.subheadline }}</p>
@@ -26,5 +25,4 @@ permalink: "/examples/python-audio/"
 		</div><!-- /.small-12.columns -->
 	  </div><!-- /.row -->
     {% endfor %}
-	
 </ul>
