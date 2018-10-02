@@ -9,7 +9,7 @@ header:
     title: Intelligent Computational Media
     background-color: "#4286f4;"
 categories:
-    - example-unity
+    - lecture
 permalink: /lectures/template/
 tags:
     - Lectures
