@@ -6,9 +6,13 @@ teaser: "Teaser. We can right the short description of the example here. It is s
 meta_teaser: "This is an example of a beautiful aligned post in the middle. There is no sidebar to distract the reader. The difference to the Page-Template is, that you find meta-information at the bottom of the post."
 breadcrumb: true
 categories:
-    - examples-python-audio-visual
-permalink: /examples-unity-games/template/
-header: no
+    - examples
+	- python
+	- visual
+permalink: /examples/python/visual/
+header:
+    title: Intelligent Computational Media
+    background-color: "#EFC94C;"
 tags:
     - Games
     - Unity
