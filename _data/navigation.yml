@@ -25,7 +25,9 @@
     url: "/design/grid/"
   - title: "Unity Example Template"
     url: "/examples/unity/template/"
-  - title: "Python Example Template"
+  - title: "Python Audio Example Template"
+    url: "/examples/python/audio/template/"
+  - title: "Python Visual Example Template"
     url: "/examples/python/visual/template/"
 
 - title: Blog
