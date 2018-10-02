@@ -9,7 +9,7 @@ categories:
     - examples
 	- python
 	- visual
-permalink: /examples/python/visual/
+permalink: /examples/python/visual/template/
 header:
     title: Intelligent Computational Media
     background-color: "#EFC94C;"
