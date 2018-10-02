@@ -7,6 +7,7 @@ meta_teaser: "This is an example of a beautiful aligned post in the middle. Ther
 breadcrumb: true
 categories:
     - examples-unity-games
+permalink: /examples-unity-games/template/
 tags:
     - Games
     - Unity

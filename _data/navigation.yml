@@ -23,6 +23,8 @@
     url: "/design/grid/"
   - title: "Unity(Games/AI)"
     url: "/design/grid/"
+  - title: "Template"
+    url: "/examples-unity-games/template/"
 
 - title: Blog
   url: "/blog/"
