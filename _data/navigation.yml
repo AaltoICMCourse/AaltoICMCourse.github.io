@@ -9,9 +9,6 @@
 - title: "Lectures"
   url: "/lectures/"
   side: left
-  dropdown:
-  - title: "Lecture Template"
-    url: "/lectures/template/"
 
 - title: "Examples"
   url: "/examples/"
