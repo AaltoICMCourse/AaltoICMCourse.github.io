@@ -23,10 +23,13 @@ author: Xiaoxiao Ma
 ---
 
 ### Video of 3D ball using PPO
+
 <div class="row text-center">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/JYhpp_LHr7o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div><!-- /.row -->
+
 ### Video of 3D ball using Neural Evolution
+
 <div class="row text-center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iPicG4x3BIw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div><!-- /.row -->
