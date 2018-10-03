@@ -12,10 +12,10 @@ breadcrumb: true
 
 <div class="row">
     <div class="medium-6 columns t30 medium-centered text-center">
-	<p>
+	<div>
       All unity examples are part of the UnityTensorflowKeras repository. Please check the instructions on the repository's Github page.
-	  </p>
-	  <a class = "radius button small" href = "" >View on Github</a>
+	  </div>
+	  <div><a class = "radius button small" href = "" >View on Github</a></div>
     </div>
 
 </div><!-- /.row -->
