@@ -86,7 +86,7 @@ Write the ending questions and exercises here.
 ### question 1
 ### question 2
 
-{% include next-previous-post-in-category %}
 {: .t60 }
+
 {% include list-posts tag='Games Unity' %}
 
