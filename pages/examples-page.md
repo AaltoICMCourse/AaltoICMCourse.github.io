@@ -13,7 +13,7 @@ breadcrumb: true
 <div class="row">
   <div class="large-4 columns">
   <a href="/examples/unity/">
-    <img src="unity-examples/examples-page-thumb.png">
+    <img src="/images/unity-examples/examples-page-thumb.png">
   </a>
 	<h2 class="font-size-h3 t10">Unity Examples</h2>
 	<p>Examples using Unity. Reinforcement learning, AI, neural evolution, GAN and so on.</p>
