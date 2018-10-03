@@ -86,7 +86,11 @@ Write the ending questions and exercises here.
 ### question 1
 ### question 2
 
-{: .t60 }
+<div id="bottom" class="row t30">
+    <div class="small-12 columns">
+       {% include next-previous-post-in-category %}
+	   {% include list-posts tag='Games Unity' %}
+    </div><!-- /.small-12.columns -->
+</div>
 
-{% include list-posts tag='Games Unity' %}
 
