@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 subheadline: Example Template Unity
 title:  "The ICM Example Template Unity"
 teaser: "Teaser. We can right the short description of the example here. It is shown below the title in the post and in the short description of the list of posts page."
@@ -33,13 +33,40 @@ You can insert a video using iframe like this;
 ## Image
 If you want to insert images/gifs, you can directly use any html you want, or as following examples
 <div class="row">
-  <div class="large-6 columns">
+  <div class="large-12 columns">
       <img src="http://placehold.it/470x264/6b6351/e1dcd7&amp;text=Width+470+Pixel">
   </div>
-  <div class="large-6 columns">
+  <div class="large-12 columns">
       <img src="http://placehold.it/470x264/e05a10/e1e75e&amp;text=Width+470+Pixel">
   </div>
 </div>
+<div class="row">
+    <div class="medium-4 columns t30">
+    <img src="{{ site.urlimg }}gallery-example-4.jpg" alt="">
+    </div><!-- /.medium-4.columns -->
+
+    <div class="medium-4 columns t30">
+      <img src="{{ site.urlimg }}gallery-example-5.jpg" alt="">
+    </div><!-- /.medium-4.columns -->
+
+    <div class="medium-4 columns t30">
+      <img src="{{ site.urlimg }}gallery-example-6.jpg" alt="">
+    </div><!-- /.medium-4.columns -->
+
+</div><!-- /.row -->
+
+
+<div class="row">
+    <div class="medium-8 columns t30">
+    <img src="{{ site.urlimg }}gallery-example-7.jpg" alt="">
+    </div><!-- /.medium-8.columns -->
+
+    <div class="medium-4 columns t30">
+      <img src="{{ site.urlimg }}gallery-example-3.jpg" alt="">
+      <img class="t30" src="{{ site.urlimg }}gallery-example-8.jpg" alt="">
+    </div><!-- /.medium-4.columns -->
+
+</div><!-- /.row -->
 
 ## more description
 Write more if you want.
