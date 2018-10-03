@@ -1,8 +1,8 @@
 ---
 layout: page-fullwidth
-subheadline: Unity Example
+subheadline: 
 title:  "3D Ball Example"
-teaser: "Teaser. We can right the short description of the example here. It is shown below the title in the post and in the short description of the list of posts page."
+teaser: "A basic example where the AI is trained to balance a ball on a plate using both PPO and Neural Evolution Algorithm. The environment is a copy of the Unity ML-Agents' 3DBall environment."
 meta_teaser: 
 breadcrumb: true
 header:
@@ -22,77 +22,35 @@ image:
 author: Xiaoxiao Ma
 ---
 
-This is the template of a example page. You can use markdown format to right as in github readme.
-
-## Video
-You can insert a video using iframe like this;
+### Video of 3D ball using PPO
 <div class="flex-video">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/hokkA77ib3c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-## Image
-If you want to insert images/gifs, you can directly use any html you want, or as following examples
-<div class="row">
-  <div class="large-12 columns t30">
-      <img src="http://placehold.it/470x264/6b6351/e1dcd7&amp;text=Width+470+Pixel">
-  </div>
-  <div class="large-12 columns t30">
-      <img src="http://placehold.it/470x264/e05a10/e1e75e&amp;text=Width+470+Pixel">
-  </div>
+### Video of 3D ball using Neural Evolution
+<div class="flex-video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/hokkA77ib3c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
-<div class="row">
-    <div class="medium-4 columns t30">
-    <img src="{{ site.urlimg }}gallery-example-4.jpg" alt="">
-    </div><!-- /.medium-4.columns -->
 
-    <div class="medium-4 columns t30">
-      <img src="{{ site.urlimg }}gallery-example-5.jpg" alt="">
-    </div><!-- /.medium-4.columns -->
-
-    <div class="medium-4 columns t30">
-      <img src="{{ site.urlimg }}gallery-example-6.jpg" alt="">
-    </div><!-- /.medium-4.columns -->
-
-</div><!-- /.row -->
-
-
-<div class="row">
-    <div class="medium-8 columns t30">
-    <img src="{{ site.urlimg }}gallery-example-7.jpg" alt="">
-    </div><!-- /.medium-8.columns -->
-
-    <div class="medium-4 columns t30">
-      <img src="{{ site.urlimg }}gallery-example-3.jpg" alt="">
-      <img class="t30" src="{{ site.urlimg }}gallery-example-8.jpg" alt="">
-    </div><!-- /.medium-4.columns -->
-
-</div><!-- /.row -->
-
-## more description
-Write more if you want.
-
-## Go to sourcecode
-Tell the directory of this example in the original repository
+### Go to Sourcecode
+This 3D ball example is one of the examples in the the UnityTensorflowKeras repository. Go to the repository from the link below to install it according to the instructions. 
 <div class="row">
     <div class="medium-6 columns t30 medium-centered text-center panel">
-	<div>
-      All unity examples are part of the UnityTensorflowKeras repository. Please check the instructions on the repository's Github page.
-	  </div>
-	  <div><a class = "radius button small" href = "https://github.com/tcmxx/UnityTensorflowKeras" >View on Github</a></div>
+	  <a class = "radius button small" href = "https://github.com/tcmxx/UnityTensorflowKeras" >View on Github</a>
     </div>
-
 </div><!-- /.row -->
+The 3D ball example is located under [Assets/UnityTensorflow/Examples/3DBall](https://github.com/tcmxx/UnityTensorflowKeras/tree/master/Assets/UnityTensorflow/Examples/3DBall) directory.
+
+## Exercises.
+### Exercise 1
+Follow this [tutorial](https://github.com/tcmxx/UnityTensorflowKeras/blob/master/Documents/Getting-Started-with-Balance-Ball.md) to get familiar with converting Unity ml-agents' environment to in-editor training environment.
 
 
-## Questions and exercises
-Write the ending questions and exercises here.
-### question 1
-### question 2
-
+{: .t60 }
 <div id="bottom" class="row t30">
     <div class="small-12 columns">
        {% include next-previous-post-in-category %}
     </div><!-- /.small-12.columns -->
 </div>
-
+{% include list-posts tag='Games Unity' %}
 
