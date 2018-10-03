@@ -11,8 +11,8 @@ breadcrumb: true
 ---
 
 <div class="row">
-    <div class="medium-12 columns t30 medium-centered text-center">
-      <img src="{{ site.urlimg }}gallery-example-5.jpg" alt="">
+    <div class="medium-6 columns t30 medium-centered text-center">
+      All unity examples are part of the UnityTensorflowKeras repository. Please check the instructions on the repository's Github page.
 	  <a class = "radius button small" href = "" >View on Github</a>
     </div>
 
