@@ -21,19 +21,61 @@ image:
     caption_url: 
 author: Xiaoxiao Ma
 ---
-*Feeling Responsive* shows metadata by default. The default behaviour can be changed via `config.yml`. To show metadata at the end of a page/post just add the following to front matter:
-<!--more-->
+## Image
+If you want to insert images/gifs, you can directly use any html you want, or as following examples
+<div class="row">
+  <div class="large-12 columns t30">
+      <img src="http://placehold.it/470x264/6b6351/e1dcd7&amp;text=Width+470+Pixel">
+  </div>
+  <div class="large-12 columns t30">
+      <img src="http://placehold.it/470x264/e05a10/e1e75e&amp;text=Width+470+Pixel">
+  </div>
+</div>
+<div class="row">
+    <div class="medium-4 columns t30">
+    <img src="{{ site.urlimg }}gallery-example-4.jpg" alt="">
+    </div><!-- /.medium-4.columns -->
 
-~~~
-show_meta: true
-~~~
+    <div class="medium-4 columns t30">
+      <img src="{{ site.urlimg }}gallery-example-5.jpg" alt="">
+    </div><!-- /.medium-4.columns -->
 
-If you don't want to show metadata, it's simple again:
+    <div class="medium-4 columns t30">
+      <img src="{{ site.urlimg }}gallery-example-6.jpg" alt="">
+    </div><!-- /.medium-4.columns -->
 
-~~~
-show_meta: false
-~~~
+</div><!-- /.row -->
 
+
+<div class="row">
+    <div class="medium-8 columns t30">
+    <img src="{{ site.urlimg }}gallery-example-7.jpg" alt="">
+    </div><!-- /.medium-8.columns -->
+
+    <div class="medium-4 columns t30">
+      <img src="{{ site.urlimg }}gallery-example-3.jpg" alt="">
+      <img class="t30" src="{{ site.urlimg }}gallery-example-8.jpg" alt="">
+    </div><!-- /.medium-4.columns -->
+
+</div><!-- /.row -->
+
+## more description
+Write more if you want.
+
+## Go to sourcecode
+Maybe then a link to the repository or others, you can use any html:
+{% include alert success='<a href="https://github.com/tcmxx/UnityTensorflowKeras">Check on Github</a>' %}
+<div class="row">
+    <div class="medium-4 columns t30">
+      <a href="https://github.com/tcmxx/UnityTensorflowKeras"><img src="{{ site.urlimg }}gallery-example-5.jpg" alt=""></a>
+    </div><!-- /.medium-4.columns -->
+
+</div><!-- /.row -->
+
+## Questions and exercises
+Write the ending questions and exercises here.
+### question 1
+### question 2
 
 ## Other Post Formats
 {: .t60 }
