@@ -12,17 +12,17 @@ widget1:
   title: "Introduction"
   url: '/introduction/'
   image: widget-1-302x182.jpg
-  text: 'A brief introduction of the course. Blablablablabla.Blablablablabla. Blablablablabla.Blablablablabla. Blablablablabla.Blablablablabla. Blablablablabla.Blablablablabla. Can use html.'
+  text: 'The current Department of Media courses DOM-E5115 Computational Intelligence in Games (by Perttu Hämäläinen) and and DOM-E5100 Procedural Audio (by Koray Tahiroğlu) represent initial steps towards making AI and ML accessible for others than engineers'
 widget2:
   title: "Lectures"
   url: '/lectures/'
   image: widget-1-302x182.jpg
-  text: 'lectures lecture lectures lectures description. Can use html.'
+  text: 'Course lectures.'
 widget3:
   title: "Examples"
   url: '/examples/'
   image: widget-github-303x182.jpg
-  text: 'examples examples examples description. examples examples examples description.examples examples examples description.examples examples examples description.examples examples examples description.examples examples examples description. Can use html.'
+  text: 'Example materials used in course. Including python examples for audio/visual, and Unity examples.'
 
 permalink: /index.html
 homepage: true
