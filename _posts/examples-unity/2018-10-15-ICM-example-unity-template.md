@@ -33,10 +33,10 @@ You can insert a video using iframe like this;
 ## Image
 If you want to insert images/gifs, you can directly use any html you want, or as following examples
 <div class="row">
-  <div class="large-12 columns">
+  <div class="large-12 columns t30">
       <img src="http://placehold.it/470x264/6b6351/e1dcd7&amp;text=Width+470+Pixel">
   </div>
-  <div class="large-12 columns">
+  <div class="large-12 columns t30">
       <img src="http://placehold.it/470x264/e05a10/e1e75e&amp;text=Width+470+Pixel">
   </div>
 </div>
@@ -72,8 +72,14 @@ If you want to insert images/gifs, you can directly use any html you want, or as
 Write more if you want.
 
 ## Go to sourcecode
-Maybe then a link to the repository or others, you can use any html, or this button:
+Maybe then a link to the repository or others, you can use any html:
 {% include alert success='<a href="https://github.com/tcmxx/UnityTensorflowKeras">Check on Github</a>' %}
+<div class="row">
+    <div class="medium-4 columns t30">
+      <a href="https://github.com/tcmxx/UnityTensorflowKeras"><img src="{{ site.urlimg }}gallery-example-5.jpg" alt=""></a>
+    </div><!-- /.medium-4.columns -->
+
+</div><!-- /.row -->
 
 ## Questions and exercises
 Write the ending questions and exercises here.
