@@ -15,7 +15,7 @@ breadcrumb: true
 	<div>
       All unity examples are part of the UnityTensorflowKeras repository. Please check the instructions on the repository's Github page.
 	  </div>
-	  <div><a class = "radius button small" href = "" >View on Github</a></div>
+	  <div><a class = "radius button small" href = "https://github.com/tcmxx/UnityTensorflowKeras" >View on Github</a></div>
     </div>
 
 </div><!-- /.row -->
