@@ -11,10 +11,10 @@ breadcrumb: true
 ---
 
 <div class="row">
-    <div class="medium-4 columns t30">
+    <div class="medium-12 columns t30 medium-centered text-center">
       <img src="{{ site.urlimg }}gallery-example-5.jpg" alt="">
 	  <a class = "radius button small" href = "" >View on Github</a>
-    </div><!-- /.medium-4.columns -->
+    </div>
 
 </div><!-- /.row -->
 
