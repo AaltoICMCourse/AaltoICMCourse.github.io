@@ -72,14 +72,17 @@ If you want to insert images/gifs, you can directly use any html you want, or as
 Write more if you want.
 
 ## Go to sourcecode
-Maybe then a link to the repository or others, you can use any html:
-{% include alert success='<a href="https://github.com/tcmxx/UnityTensorflowKeras">Check on Github</a>' %}
+Tell the directory of this example in the original repository
 <div class="row">
-    <div class="medium-4 columns t30">
-      <a href="https://github.com/tcmxx/UnityTensorflowKeras"><img src="{{ site.urlimg }}gallery-example-5.jpg" alt=""></a>
-    </div><!-- /.medium-4.columns -->
+    <div class="medium-6 columns t30 medium-centered text-center panel">
+	<div>
+      All unity examples are part of the UnityTensorflowKeras repository. Please check the instructions on the repository's Github page.
+	  </div>
+	  <div><a class = "radius button small" href = "https://github.com/tcmxx/UnityTensorflowKeras" >View on Github</a></div>
+    </div>
 
 </div><!-- /.row -->
+
 
 ## Questions and exercises
 Write the ending questions and exercises here.

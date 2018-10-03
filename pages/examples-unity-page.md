@@ -11,7 +11,7 @@ breadcrumb: true
 ---
 
 <div class="row">
-    <div class="medium-6 columns t30 medium-centered text-center">
+    <div class="medium-6 columns t30 medium-centered text-center panel">
 	<div>
       All unity examples are part of the UnityTensorflowKeras repository. Please check the instructions on the repository's Github page.
 	  </div>
