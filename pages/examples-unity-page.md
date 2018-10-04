@@ -13,7 +13,7 @@ breadcrumb: true
 <div class="row">
     <div class="medium-6 columns t10 medium-centered text-center panel">
 	<div>
-      All unity examples in the UnityTensorflowKeras repository. Please check original repository's Github page if you want to know more.
+      Most unity examples are in the UnityTensorflowKeras repository. Please check the original repository on Github if you want to know more.
 	  </div>
 	  <div><a class = "radius button small" target="_blank" href = "https://github.com/tcmxx/UnityTensorflowKeras" >View on Github</a></div>
     </div>

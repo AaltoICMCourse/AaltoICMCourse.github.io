@@ -1,8 +1,8 @@
 ---
 layout: page-fullwidth
 subheadline: 
-title:  "Banana Collector"
-teaser: "A basic example where the AI is trained to balance a ball on a plate using both PPO and Neural Evolution Algorithm. The environment is a copy of the Unity ML-Agents' 3DBall environment."
+title:  "Banana Collectors"
+teaser: "A copy of the Unity ML-Agents' Banana Collector environment. The agents are trained to collect bananas, shoot at each other and avoid the bad bananas. Discrete action branching is used in this example."
 meta_teaser: 
 breadcrumb: true
 header:
@@ -15,37 +15,44 @@ tags:
     - Games
     - Unity
 image:
-    thumb:  unity-examples/3dball-thumb.png
-    title: unity-examples/3dball-title.png
+    thumb:  unity-examples/banana-thumb.png
+    title: unity-examples/banana-title.png
     caption: 
     caption_url: 
 author: Xiaoxiao Ma
 ---
 
-### Video of 3D ball using PPO
+This example shows how to create an environment where the action space is discrete with action branching, the agents can interact with each other. and how to use raycasting results as the agent's observations.
 
+We copied the environment from Unity ml-agents, and modified it to train in editor. Here are the results:
+
+### Before Training
 <div class="row text-center">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/JYhpp_LHr7o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<div class="medium-8 columns t30">
+       <img src="unity-examples/banana-collector-before-training.gif" alt="">
+    </div><!-- /.medium-8.columns -->
+	<p>The movement of agents are random before training</p>
 </div><!-- /.row -->
 
-### Video of 3D ball using Neural Evolution
-
+### After Training
 <div class="row text-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iPicG4x3BIw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<div class="medium-8 columns t30">
+       <img src="unity-examples/banana-collector-after-training.gif" alt="">
+    </div><!-- /.medium-8.columns -->
+	<p>Agents can shoot at each other and collect the good bananas</p>
 </div><!-- /.row -->
 
 ### Go to Sourcecode
-This 3D ball example is one of the examples in the the UnityTensorflowKeras repository. Go to the repository from the link below to install it according to the instructions. 
+This Banana Collectors example is one of the examples in the the UnityTensorflowKeras repository. Go to the repository from the link below to install it according to the instructions. 
 <div class="row">
     <div class="medium-6 columns t10">
 	  <a class = "radius button small" target="_blank" href = "https://github.com/tcmxx/UnityTensorflowKeras" >View on Github</a>
     </div>
 </div><!-- /.row -->
-The 3D ball example is located under [Assets/UnityTensorflow/Examples/3DBall](https://github.com/tcmxx/UnityTensorflowKeras/tree/master/Assets/UnityTensorflow/Examples/3DBall) directory.
+The Banana Collectors example is located under [Assets/UnityTensorflow/Examples/BananaCollectors](https://github.com/tcmxx/UnityTensorflowKeras/tree/master/Assets/UnityTensorflow/Examples/BananaCollectors) directory.
 
 ### Exercises
-#### Exercise 1
-Follow this [tutorial](https://github.com/tcmxx/UnityTensorflowKeras/blob/master/Documents/Getting-Started-with-Balance-Ball.md) to get familiar with converting Unity ml-agents' environment to in-editor training environment.
+NA
 
 
 {: .t60 }

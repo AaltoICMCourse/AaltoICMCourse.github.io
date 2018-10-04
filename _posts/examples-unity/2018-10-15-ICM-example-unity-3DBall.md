@@ -43,6 +43,8 @@ This 3D ball example is one of the examples in the the UnityTensorflowKeras repo
 </div><!-- /.row -->
 The 3D ball example is located under [Assets/UnityTensorflow/Examples/3DBall](https://github.com/tcmxx/UnityTensorflowKeras/tree/master/Assets/UnityTensorflow/Examples/3DBall) directory.
 
+For more information about this example, see [Here](https://github.com/tcmxx/UnityTensorflowKeras/blob/master/Documents/ExamplesList.md#3dball).
+
 ### Exercises
 #### Exercise 1
 Follow this [tutorial](https://github.com/tcmxx/UnityTensorflowKeras/blob/master/Documents/Getting-Started-with-Balance-Ball.md) to get familiar with converting Unity ml-agents' environment to in-editor training environment.
