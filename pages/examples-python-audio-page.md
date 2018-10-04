@@ -27,7 +27,7 @@ breadcrumb: true
 			<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
 		  </p>
 		</div>
-	  {% if loopindex == 0 %}
+	   {% if loopindex == 0 or forloop.index == forloop.length%}
 	  </div><!-- /.row -->
 	  {% endif %}
     {% endfor %}
