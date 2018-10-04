@@ -11,7 +11,7 @@ breadcrumb: true
 ---
 
 <div class="row">
-    <div class="medium-6 columns t30 medium-centered text-center panel">
+    <div class="medium-6 columns t10 medium-centered text-center panel">
 	<div>
       All unity examples in the UnityTensorflowKeras repository. Please check original repository's Github page if you want to know more.
 	  </div>
@@ -27,7 +27,7 @@ breadcrumb: true
 		<div class="row">
 	  {% endif %}
 		<div class="small-6 columns">
-		  <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+		  <h3><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 		  <p class="subheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if post.categories != empty and post.subheadline != NULL %} – {% endif %}{{ post.subheadline }}</p>
 		  <p>
 			{% if post.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
