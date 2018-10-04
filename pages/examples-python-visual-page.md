@@ -9,12 +9,14 @@ header:
 permalink: "/examples/python-visual/"
 breadcrumb: true
 ---
-
 <ul>
-		{% for post in site.categories.example-python-visual %}
-	  <div class="row">
-		<div class="small-12 columns b60">
-		  <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+	{% for post in site.categories.example-python-visual %}
+	  {% assign loopindex = forloop.index | modulo: 2 %}
+	  {% if loopindex == 1 %}
+		<div class="row">
+	  {% endif %}
+		<div class="small-6 columns">
+		  <h3><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 		  <p class="subheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if post.categories != empty and post.subheadline != NULL %} – {% endif %}{{ post.subheadline }}</p>
 		  <p>
 			{% if post.image.thumb %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
@@ -23,7 +25,9 @@ breadcrumb: true
 
 			<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
 		  </p>
-		</div><!-- /.small-12.columns -->
+		</div>
+	  {% if loopindex == 0 %}
 	  </div><!-- /.row -->
+	  {% endif %}
     {% endfor %}
 </ul>

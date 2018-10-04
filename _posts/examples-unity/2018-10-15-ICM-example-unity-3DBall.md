@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 subheadline: 
-title:  "3D Ball Example"
+title:  "3D Ball"
 teaser: "A basic example where the AI is trained to balance a ball on a plate using both PPO and Neural Evolution Algorithm. The environment is a copy of the Unity ML-Agents' 3DBall environment."
 meta_teaser: 
 breadcrumb: true
