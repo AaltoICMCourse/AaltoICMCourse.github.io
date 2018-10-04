@@ -26,7 +26,7 @@ breadcrumb: true
 	  {% if loopindex == 1 %}
 		<div class="row">
 	  {% endif %}
-		<div class="small-10 columns b60">
+		<div class="small-6 columns">
 		  <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 		  <p class="subheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if post.categories != empty and post.subheadline != NULL %} – {% endif %}{{ post.subheadline }}</p>
 		  <p>
@@ -36,7 +36,7 @@ breadcrumb: true
 
 			<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
 		  </p>
-		</div><!-- /.small-12.columns -->
+		</div>
 	  {% if loopindex == 0 %}
 	  </div><!-- /.row -->
 	  {% endif %}
