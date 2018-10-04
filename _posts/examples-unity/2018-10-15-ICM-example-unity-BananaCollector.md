@@ -30,16 +30,16 @@ We copied the environment from Unity ml-agents, and modified it to train in edit
 <div class="row text-center">
 	<div class="medium-8 columns t30">
        <img src="{{ site.urlimg }}unity-examples/banana-collector-before-training.gif" alt="">
+	   <p>The movement of agents are random before training</p>
     </div><!-- /.medium-8.columns -->
-	<p>The movement of agents are random before training</p>
 </div><!-- /.row -->
 
 ### After Training
 <div class="row text-center">
 	<div class="medium-8 columns t30">
        <img src="{{ site.urlimg }}unity-examples/banana-collector-after-training.gif" alt="">
+	   <p>Agents can shoot at each other and collect the good bananas</p>
     </div><!-- /.medium-8.columns -->
-	<p>Agents can shoot at each other and collect the good bananas</p>
 </div><!-- /.row -->
 
 ### Go to Sourcecode
