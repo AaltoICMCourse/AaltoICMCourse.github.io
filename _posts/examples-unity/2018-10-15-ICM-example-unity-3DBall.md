@@ -37,7 +37,7 @@ author: Xiaoxiao Ma
 ### Go to Sourcecode
 This 3D ball example is one of the examples in the the UnityTensorflowKeras repository. Go to the repository from the link below to install it according to the instructions. 
 <div class="row">
-    <div class="medium-6 columns t30">
+    <div class="medium-6 columns t10">
 	  <a class = "radius button small" target="_blank" href = "https://github.com/tcmxx/UnityTensorflowKeras" >View on Github</a>
     </div>
 </div><!-- /.row -->

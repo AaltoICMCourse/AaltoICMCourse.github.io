@@ -23,7 +23,7 @@ breadcrumb: true
 <ul>
 	{% for post in site.categories.example-unity %}
 	  {% assign loopindex = forloop.index | modulo: 2 %}
-	  {% if loopindex == 0 %}
+	  {% if loopindex == 1 %}
 		<div class="row">
 	  {% endif %}
 		<div class="small-10 columns b60">
