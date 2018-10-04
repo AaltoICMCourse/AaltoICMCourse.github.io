@@ -37,7 +37,7 @@ We copied the environment from Unity ml-agents, and modified it to train in edit
 ### Visual Observation
 <div class="row text-center">
 	<div class="medium-8 columns t30">
-       <img src="{{ site.urlimg }}unity-examples/banana-collector-after-training.gif" alt="">
+       <img src="{{ site.urlimg }}unity-examples/gridworld-camera-after-training.gif" alt="">
 	   <p>The input observation of the agent is the image from a top down camera as above</p>
     </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
