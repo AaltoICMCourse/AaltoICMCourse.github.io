@@ -38,7 +38,7 @@ author: Xiaoxiao Ma
 This 3D ball example is one of the examples in the the UnityTensorflowKeras repository. Go to the repository from the link below to install it according to the instructions. 
 <div class="row">
     <div class="medium-6 columns t30 medium-centered text-center panel">
-	  <a class = "radius button small" href = "https://github.com/tcmxx/UnityTensorflowKeras" >View on Github</a>
+	  <a class = "radius button small" target="_blank" href = "https://github.com/tcmxx/UnityTensorflowKeras" >View on Github</a>
     </div>
 </div><!-- /.row -->
 The 3D ball example is located under [Assets/UnityTensorflow/Examples/3DBall](https://github.com/tcmxx/UnityTensorflowKeras/tree/master/Assets/UnityTensorflow/Examples/3DBall) directory.
