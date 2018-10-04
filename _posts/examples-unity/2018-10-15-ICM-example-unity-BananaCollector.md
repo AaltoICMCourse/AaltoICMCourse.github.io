@@ -51,6 +51,8 @@ This Banana Collectors example is one of the examples in the the UnityTensorflow
 </div><!-- /.row -->
 The Banana Collectors example is located under [Assets/UnityTensorflow/Examples/BananaCollectors](https://github.com/tcmxx/UnityTensorflowKeras/tree/master/Assets/UnityTensorflow/Examples/BananaCollectors) directory.
 
+For more information about this example, see [Here](https://github.com/tcmxx/UnityTensorflowKeras/blob/master/Documents/ExamplesList.md#bananacollectors).
+
 ### Exercises
 NA
 

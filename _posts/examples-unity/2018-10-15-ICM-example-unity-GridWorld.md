@@ -2,7 +2,7 @@
 layout: page-fullwidth
 subheadline: 
 title:  "Grid World"
-teaser: "A basic example where the AI is trained to balance a ball on a plate using both PPO and Neural Evolution Algorithm. The environment is a copy of the Unity ML-Agents' 3DBall environment."
+teaser: "A basic example where the AI is trained to reach to the destination and avoid the obstacle in a grid world."
 meta_teaser: 
 breadcrumb: true
 header:
@@ -15,38 +15,46 @@ tags:
     - Games
     - Unity
 image:
-    thumb:  unity-examples/3dball-thumb.png
-    title: unity-examples/3dball-title.png
+    thumb:  unity-examples/gridworld-thumb.png
+    title: unity-examples/gridworld-title.png
     caption: 
     caption_url: 
 author: Xiaoxiao Ma
 ---
 
-### Video of 3D ball using PPO
+This example shows how to create an environment with visual observation and action [mask](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Design-Agents.md#masking-discrete-actions).
 
+We copied the environment from Unity ml-agents, and modified it to train in editor. Here are the results:
+
+### After training
 <div class="row text-center">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/JYhpp_LHr7o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<div class="medium-8 columns t30">
+       <img src="{{ site.urlimg }}unity-examples/gridworld-after-training.gif" alt="">
+	   <p>The agent is able to move the with target while avoiding the obstable</p>
+    </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
 
-### Video of 3D ball using Neural Evolution
-
+### Visual Observation
 <div class="row text-center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iPicG4x3BIw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<div class="medium-8 columns t30">
+       <img src="{{ site.urlimg }}unity-examples/banana-collector-after-training.gif" alt="">
+	   <p>The input observation of the agent is the image from a top down camera as above</p>
+    </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
 
 ### Go to Sourcecode
-This 3D ball example is one of the examples in the the UnityTensorflowKeras repository. Go to the repository from the link below to install it according to the instructions. 
+This Grid World example is one of the examples in the the UnityTensorflowKeras repository. Go to the repository from the link below to install it according to the instructions. 
 <div class="row">
     <div class="medium-6 columns t10">
 	  <a class = "radius button small" target="_blank" href = "https://github.com/tcmxx/UnityTensorflowKeras" >View on Github</a>
     </div>
 </div><!-- /.row -->
-The 3D ball example is located under [Assets/UnityTensorflow/Examples/3DBall](https://github.com/tcmxx/UnityTensorflowKeras/tree/master/Assets/UnityTensorflow/Examples/3DBall) directory.
+The Grid World example is located under [Assets/UnityTensorflow/Examples/GridWorld](https://github.com/tcmxx/UnityTensorflowKeras/tree/master/Assets/UnityTensorflow/Examples/GridWorld) directory.
+
+For more information about this example, see [Here](https://github.com/tcmxx/UnityTensorflowKeras/blob/master/Documents/ExamplesList.md#gridworld).
 
 ### Exercises
-#### Exercise 1
-Follow this [tutorial](https://github.com/tcmxx/UnityTensorflowKeras/blob/master/Documents/Getting-Started-with-Balance-Ball.md) to get familiar with converting Unity ml-agents' environment to in-editor training environment.
-
+NA
 
 {: .t60 }
 <div id="bottom" class="row t30">

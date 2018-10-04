@@ -2,7 +2,7 @@
 layout: page-fullwidth
 subheadline: 
 title:  "2D Plane - GAN"
-teaser: "Using Generative Adversarial Network(GAN) to generate data of a distribution on a 2D plane."
+teaser: "Using Generative Adversarial Network(GAN) to generate data of multimodal guassian distribution on a 2D plane."
 meta_teaser: 
 breadcrumb: true
 header:
@@ -25,7 +25,7 @@ author: Xiaoxiao Ma
 ### Video of GAN being trained to generate data of multimodal guassian distribution
 
 <div class="row text-center">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/JYhpp_LHr7o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/S1LT1-8_ul0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div><!-- /.row -->
 
 ### Go to Sourcecode
@@ -36,7 +36,12 @@ This 3D ball example is one of the examples in the the UnityTensorflowKeras repo
     </div>
 </div><!-- /.row -->
 The 3D ball example is located under [Assets/UnityTensorflow/Examples/GAN2DPlane](https://github.com/tcmxx/UnityTensorflowKeras/tree/master/Assets/UnityTensorflow/Examples/GAN2DPlane) directory.
+
+For more information about this example, see [Here](https://github.com/tcmxx/UnityTensorflowKeras/blob/master/Documents/ExamplesList.md#gan2dplane).
+
 Go [Here](https://github.com/tcmxx/UnityTensorflowKeras/blob/master/Documents/Training-GAN.md) to see the instruction of how to use the basic GAN in Unity.
+
+
 
 ### Exercises
 #### Exercise 1
