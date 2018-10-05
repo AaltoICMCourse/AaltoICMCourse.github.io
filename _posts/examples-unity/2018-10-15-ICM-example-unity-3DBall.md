@@ -51,10 +51,11 @@ Follow this [tutorial](https://github.com/tcmxx/UnityTensorflowKeras/blob/master
 
 
 {: .t60 }
+<!--
 <div id="bottom" class="row t30">
     <div class="small-12 columns">
        {% include next-previous-post-in-category %}
-    </div><!-- /.small-12.columns -->
+    </div>
 </div>
-{% include list-posts tag='Unity' %}
+-->
 

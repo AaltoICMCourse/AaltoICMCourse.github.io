@@ -59,10 +59,11 @@ Change the dimension of the maze and train your agent using vector observation.
 
 
 {: .t60 }
+<!--
 <div id="bottom" class="row t30">
     <div class="small-12 columns">
        {% include next-previous-post-in-category %}
-    </div><!-- /.small-12.columns -->
+    </div>
 </div>
-{% include list-posts tag='Unity' %}
+-->
 
