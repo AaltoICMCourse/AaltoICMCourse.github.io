@@ -69,5 +69,5 @@ NA
        {% include next-previous-post-in-category %}
     </div><!-- /.small-12.columns -->
 </div>
-{% include list-posts tag='Games Unity' %}
+{% include list-posts tag='Unity' %}
 
