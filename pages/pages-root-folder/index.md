@@ -11,17 +11,17 @@ header:
 widget1:
   title: "Introduction"
   url: '/introduction/'
-  image: widget-1-302x182.jpg
+  image: frontpage-widget-introduction.png
   text: 'The current Department of Media courses DOM-E5115 Computational Intelligence in Games (by Perttu Hämäläinen) and and DOM-E5100 Procedural Audio (by Koray Tahiroğlu) represent initial steps towards making AI and ML accessible for others than engineers'
 widget2:
   title: "Lectures"
   url: '/lectures/'
-  image: widget-1-302x182.jpg
+  image: frontpage-widget-lectures.png
   text: 'Course lectures.'
 widget3:
   title: "Examples"
   url: '/examples/'
-  image: widget-github-303x182.jpg
+  image: frontpage-widget-examples.png
   text: 'Example materials used in course. Including python examples for audio/visual, and Unity examples.'
 
 permalink: /index.html

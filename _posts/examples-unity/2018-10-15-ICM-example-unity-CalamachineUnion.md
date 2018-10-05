@@ -1,8 +1,8 @@
 ---
 layout: page-fullwidth
 subheadline: 
-title:  "Intelligent Pool"
-teaser: "An example of playing the billiard using sampling based method, and how to combine it with supervised learning."
+title:  "Calamachine Union"
+teaser: "Calamachine Union! An actual game that uses reinforcement learning. The gameplay is to design and train your agent to play a platformer game!"
 meta_teaser: 
 breadcrumb: true
 header:
@@ -10,7 +10,7 @@ header:
     background-color: "#4286f4;"
 categories:
     - example-unity
-permalink: /examples/unity/intelligentpool/
+permalink: /examples/unity/calamachineunion/
 tags:
     - Games
     - Unity

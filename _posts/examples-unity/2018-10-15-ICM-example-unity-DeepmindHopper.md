@@ -1,8 +1,8 @@
 ---
 layout: page-fullwidth
 subheadline: 
-title:  "Intelligent Pool"
-teaser: "An example of playing the billiard using sampling based method, and how to combine it with supervised learning."
+title:  "Deepmind Hopper"
+teaser: "Training with one of the Unity ml-agent's marathon environment: Deepmind Hopper."
 meta_teaser: 
 breadcrumb: true
 header:
@@ -22,8 +22,7 @@ image:
 author: Xiaoxiao Ma
 ---
 
-We use CMA-ES(Covariance Matrix Adaption - Evolution Strategies) to find the optimal solution to a billiard problem. CMA-ES is a sampling based method, where it needs to sample different actions(shooting direction and power in our case), evaluate the final result of those actions and obtain the best of them. CMA-ES uses matrix adaption and 
-evalution strategy to improve the sampling distribution, so that it is much easier/faster to find the best action.
+Unity ml-agent's marathon environment contains a lot of commonly used environments in modern AI research.
 
 ### Demo of play billiard using CMA-ES, and the 2D heatmap of action space
 <div class="row text-center">
