@@ -15,69 +15,57 @@ tags:
     - Visual
     - Python
 image:
-    thumb:  homepage_typography-thumb.jpg
+    thumb:  logo.png
     title: logo.png
     caption: image caption
     caption_url: 
 author: Xiaoxiao Ma
 ---
-## Image
-If you want to insert images/gifs, you can directly use any html you want, or as following examples
+
+### Insert a video
+<div class="row text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0IV3TfTuNBM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div><!-- /.row -->
+
+### Insert an image
+<div class="row text-center">
+	<div class="medium-8 columns t30">
+       <img src="{{ site.urlimg }}unity-examples/pongRL-after-training.gif" alt="">
+	   <p>The agent plays much better than the one with supervised learning. It even learns to hit the ball with the edge of racket to create harder situation for the opponent.</p>
+    </div><!-- /.medium-8.columns -->
+</div><!-- /.row -->
+
+### insert codes
+```csharp
+//create the model. the styleTransferModelData.bytes is the binary files provided that contains all needed pretrained data of the network.
+var styleTransferModel = new UniversalStyleTransferModel(CNTK.DeviceDescriptor.GPUDevice(0), styleTransferModelData.bytes);
+//build it with specified dimentions
+styleTransferModel.CreateModelWithDimensions(contentSize, styleSize);
+
+// Get the raw data of content and style imagefrom the Unity Texture2D object using helper functions.
+var tempContentTexture = Images.GetReadableTextureFromUnreadable(contentTexture);
+byte[] contentBytes = tempContentTexture.GetRGB24FromTexture2D(contentResize);
+```
+
+### grid
 <div class="row">
-  <div class="large-12 columns t30">
-      <img src="http://placehold.it/470x264/6b6351/e1dcd7&amp;text=Width+470+Pixel">
+  <div class="small-4 columns">
+      <img src="http://placehold.it/303x170/6b6351/e1dcd7&amp;text=Width+303+Pixel">
   </div>
-  <div class="large-12 columns t30">
-      <img src="http://placehold.it/470x264/e05a10/e1e75e&amp;text=Width+470+Pixel">
+  <div class="small-4 columns">
+      <img src="http://placehold.it/303x170/e05a10/e1e75e&amp;text=Width+303+Pixel">
+  </div>
+  <div class="small-4 columns">
+      <img src="http://placehold.it/303x170/fabb00/771e1e&amp;text=Width+303+Pixel">
   </div>
 </div>
-<div class="row">
-    <div class="medium-4 columns t30">
-    <img src="{{ site.urlimg }}gallery-example-4.jpg" alt="">
-    </div><!-- /.medium-4.columns -->
 
-    <div class="medium-4 columns t30">
-      <img src="{{ site.urlimg }}gallery-example-5.jpg" alt="">
-    </div><!-- /.medium-4.columns -->
-
-    <div class="medium-4 columns t30">
-      <img src="{{ site.urlimg }}gallery-example-6.jpg" alt="">
-    </div><!-- /.medium-4.columns -->
-
-</div><!-- /.row -->
-
-
-<div class="row">
-    <div class="medium-8 columns t30">
-    <img src="{{ site.urlimg }}gallery-example-7.jpg" alt="">
-    </div><!-- /.medium-8.columns -->
-
-    <div class="medium-4 columns t30">
-      <img src="{{ site.urlimg }}gallery-example-3.jpg" alt="">
-      <img class="t30" src="{{ site.urlimg }}gallery-example-8.jpg" alt="">
-    </div><!-- /.medium-4.columns -->
-
-</div><!-- /.row -->
-
-## more description
-Write more if you want.
-
-## Go to sourcecode
-Maybe then a link to the repository or others, you can use any html:
-{% include alert success='<a href="https://github.com/tcmxx/UnityTensorflowKeras">Check on Github</a>' %}
-<div class="row">
-    <div class="medium-4 columns t30">
-      <a href="https://github.com/tcmxx/UnityTensorflowKeras"><img src="{{ site.urlimg }}gallery-example-5.jpg" alt=""></a>
-    </div><!-- /.medium-4.columns -->
-
-</div><!-- /.row -->
-
-## Questions and exercises
-Write the ending questions and exercises here.
-### question 1
-### question 2
-
-## Other Post Formats
 {: .t60 }
-{% include list-posts tag='Games Unity' %}
+<div id="bottom" class="row t30">
+    <div class="small-12 columns">
+       {% include next-previous-post-in-category %}
+    </div><!-- /.small-12.columns -->
+</div>
+{% include list-posts tag='Visual' %}
+
 

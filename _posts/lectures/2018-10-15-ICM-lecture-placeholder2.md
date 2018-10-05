@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 subheadline: Lecture placeholder2
 title:  "Lecture placeholder2"
 teaser: "Teaser. This is the lecture teaser."
@@ -14,14 +14,12 @@ permalink: /lectures/placeholder2/
 tags:
     - Lecture
 image:
-    thumb:  lecture-thumb-placeholder.png
-    title: lecture-title-placeholder.png
+    thumb:  lectures/lecture-thumb-placeholder.png
+    title: lectures/lecture-title-placeholder.png
     caption: image caption
     caption_url: 
 author: Xiaoxiao Ma
 ---
-*Feeling Responsive* shows metadata by default. The default behaviour can be changed via `config.yml`. To show metadata at the end of a page/post just add the following to front matter:
-<!--more-->
 
 ### Insert a video
 <div class="row text-center">
@@ -61,8 +59,6 @@ byte[] contentBytes = tempContentTexture.GetRGB24FromTexture2D(contentResize);
   </div>
 </div>
 
-
-## Other Post Formats
 {: .t60 }
 <div id="bottom" class="row t30">
     <div class="small-12 columns">
