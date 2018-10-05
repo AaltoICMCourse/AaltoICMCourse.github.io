@@ -16,7 +16,7 @@ tags:
     - Unity
 image:
     thumb:  unity-examples/pole.png
-    title: unity-examples/pole.png
+    title: 
     caption: 
     caption_url: 
 author: Xiaoxiao Ma

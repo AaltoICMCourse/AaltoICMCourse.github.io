@@ -16,7 +16,7 @@ tags:
     - Unity
 image:
     thumb:  unity-examples/maze.png
-    title: unity-examples/maze.png
+    title: 
     caption: 
     caption_url: 
 author: Xiaoxiao Ma
