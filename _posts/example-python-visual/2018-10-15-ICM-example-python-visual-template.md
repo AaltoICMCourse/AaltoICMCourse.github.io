@@ -19,7 +19,7 @@ image:
     title: logo.png
     caption: image caption
     caption_url: 
-author: Xiaoxiao Ma
+author: xx
 ---
 
 ### Insert a video

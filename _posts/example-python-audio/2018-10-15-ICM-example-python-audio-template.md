@@ -11,6 +11,7 @@ header:
 categories:
     - example-python-audio
 permalink: /examples/python/audio/template/
+mediaplayer: true
 tags:
     - Audio
     - Python
@@ -19,8 +20,26 @@ image:
     title: logo.png
     caption: image caption
     caption_url: 
-author: Xiaoxiao Ma
+author: xx
 ---
+
+### Insert audio
+[mediaelement.js][1] is like magic. It's browser and device support is perfect. To activate the video or audio player just set the following variable in front matter to `true`.
+
+~~~
+mediaplayer: true
+~~~
+
+To use the player just use some HTML5-magic like...
+
+{% highlight html %}
+<audio src="http://path-to-file.com/music.mp3" type="audio/mp3" controls="controls"></audio>
+{% endhighlight %}
+
+#### Comfort Fit - »Freeze The Cut«
+<audio src="http://archive.org/download/music_from_all_around_the_world/05._music_from_all_around_the_world_-_comfort_fit_-_freeze_the_cut_opolopos_emotional_draft_remix.mp3" type="audio/mp3" controls="controls"></audio>
+[Download Compilation ›](https://archive.org/details/music_from_all_around_the_world)
+{: .t30 .button .radius}
 
 ### Insert a video
 <div class="row text-center">

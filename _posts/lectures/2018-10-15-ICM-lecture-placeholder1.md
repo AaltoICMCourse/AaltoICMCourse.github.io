@@ -18,7 +18,7 @@ image:
     title: lectures/lecture-title-placeholder.png
     caption: image caption
     caption_url: 
-author: Xiaoxiao Ma
+author: xx
 ---
 
 ### Insert a video
