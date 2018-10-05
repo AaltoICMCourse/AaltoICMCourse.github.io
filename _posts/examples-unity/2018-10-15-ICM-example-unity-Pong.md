@@ -22,8 +22,6 @@ image:
 author: Xiaoxiao Ma
 ---
 
-
-
 ### Trained agent using supervised learning
 <div class="row text-center">
 	<div class="medium-8 columns t30">
