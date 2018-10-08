@@ -15,7 +15,7 @@ tags:
     - Games
     - Unity
 image:
-    thumb:  unity-examples/hopper.png
+    thumb:  unity-examples/hopper-thumb.png
     title: unity-examples/marathon-title.gif
     caption: 
     caption_url: 
@@ -35,7 +35,7 @@ Unity ML-Agents' [marathon environment](https://github.com/Unity-Technologies/ma
 You need the UnityTensorflowKeras repository to train ML-Agents in editor. Go to the repository from the link below to install it according to the instructions. 
 <div class="row">
     <div class="medium-6 columns t10">
-	  <a class = "radius button small" target="_blank" href = "https://github.com/tcmxx/UnityTensorflowKeras" >View on Github</a>
+	  <a class = "radius button small" target="_blank" href = "https://github.com/tcmxx/UnityTensorflowKeras" >View UnityTensorflowKeras on Github</a>
     </div>
 </div><!-- /.row -->
 
@@ -47,7 +47,7 @@ The marathon environments are not included in ML-Agents or UnityTensorflowKeras 
 </div><!-- /.row -->
 
 ### Exercises
-Pick one of the environments from the marathon environments, setup the scene for training in editor, and train it. You can use the same parameters for neural network and training as specified in [config/marathon_envs_config.yaml](https://github.com/Unity-Technologies/marathon-envs/blob/master/config/marathon_envs_config.yaml) file.
+1. Pick one of the environments from the marathon environments, setup the scene for training in editor, and train it. You can use the same parameters for neural network and training as specified in [config/marathon_envs_config.yaml](https://github.com/Unity-Technologies/marathon-envs/blob/master/config/marathon_envs_config.yaml) file.
 
 
 {: .t60 }
