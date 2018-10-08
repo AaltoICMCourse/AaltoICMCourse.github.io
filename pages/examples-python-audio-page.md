@@ -10,6 +10,18 @@ permalink: "/examples/python-audio/"
 breadcrumb: true
 ---
 
+Here are the audio related python examples that will be used in the course. Currently those are just placeholders. Real contents are coming soon.
+
+<div class="row">
+    <div class="medium-6 columns t10 medium-centered text-center panel">
+	<div>
+      The audio related examples are in the MachineLearningWithAudio repository. Please check the original repository on Github if you want to know more.
+	  </div>
+	  <div><a class = "radius button small" target="_blank" href = "https://github.com/SopiMlab/MachineLearningWithAudio" >View on Github</a></div>
+    </div>
+</div><!-- /.row -->
+
+
 <ul>
 	{% for post in site.categories.example-python-audio %}
 	  {% assign loopindex = forloop.index | modulo: 2 %}

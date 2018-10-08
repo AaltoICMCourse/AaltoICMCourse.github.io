@@ -1,16 +1,16 @@
 ---
 layout: page-fullwidth
-subheadline: Example Template Audio
-title:  "The ICM Example Template Audio"
-teaser: "Teaser. We can right the short description of the example here. It is shown below the title in the post and in the short description of the list of posts page."
-meta_teaser: "This is an example of a beautiful aligned post in the middle. There is no sidebar to distract the reader. The difference to the Page-Template is, that you find meta-information at the bottom of the post."
+subheadline: 
+title:  "Audio Classification Using Neural Network"
+teaser: "This is a short tutorial to show how to load and classify sound files using a neural network."
+meta_teaser: "This is a short tutorial to show how to load and classify sound files using a neural network."
 breadcrumb: true
 header:
     title: Intelligent Computational Media
     background-color: "#4286f4;"
 categories:
     - example-python-audio
-permalink: /examples/python/audio/template/
+permalink: /examples/python/audio/classification/
 mediaplayer: true
 tags:
     - Audio
@@ -22,6 +22,9 @@ image:
     caption_url: 
 author: xx
 ---
+
+This page will be ready soon. Please view this instructions [Here](https://github.com/SopiMlab/MachineLearningWithAudio/blob/master/notebooks/Audio%20Classification.ipynb) for what is coming.
+
 
 ### Insert audio
 [mediaelement.js][1] is like magic. It's browser and device support is perfect. To activate the video or audio player just set the following variable in front matter to `true`.

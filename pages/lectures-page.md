@@ -9,6 +9,15 @@ header:
 permalink: "/lectures/"
 breadcrumb: true
 ---
+
+<div class="row">
+    <div class="medium-6 columns t10 medium-centered text-center panel">
+	  <div>
+        The detailed lectures based on the syllabus will be coming soon. Below are just placeholders of the lectures.
+	  </div>
+	</div>
+</div><!-- /.row -->
+
 <ul>
 	{% for post in site.categories.lecture %}
 	  {% assign loopindex = forloop.index | modulo: 2 %}

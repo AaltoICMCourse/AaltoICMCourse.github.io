@@ -9,6 +9,9 @@ header:
 permalink: "/examples/python-visual/"
 breadcrumb: true
 ---
+
+Here are the audio related python examples that will be used in the course. Currently those are just placeholders. Real contents are coming soon.
+
 <ul>
 	{% for post in site.categories.example-python-visual %}
 	  {% assign loopindex = forloop.index | modulo: 2 %}

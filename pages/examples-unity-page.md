@@ -10,6 +10,8 @@ permalink: "/examples/unity/"
 breadcrumb: true
 ---
 
+Here are the Unity examples that will be used in the course. 
+
 <div class="row">
     <div class="medium-6 columns t10 medium-centered text-center panel">
 	<div>

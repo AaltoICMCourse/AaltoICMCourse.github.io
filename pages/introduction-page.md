@@ -11,25 +11,15 @@ permalink: "/introduction/"
 breadcrumb: true
 ---
 ## Description
-The current Department of Media courses DOM-E5115 Computational Intelligence in Games (by Perttu Hämäläinen) and and DOM-E5100 Procedural Audio (by Koray Tahiroğlu) represent initial steps towards making AI and ML accessible for others than engineers – 
-this pilot aims to unify and extend the courses in the form of a new course we tentatively call Intelligent Computational Media, aimed for whole Aalto ARTS. 
-The proposed course will provide advanced practical and theoretical content regarding both generativeand discriminative algorithms applied to various forms of media. 
-Examples include but are not limited to algorithmic generation of video game content, computational music, sound installations, automatic testingand balancing of games, and intelligent image and 3D content editing.
-The proposed  course will  utilize a  flipped classroom  format,  with  online materials:  interactive visualizations / explorable explanations, and practical exercises  examples with source code,based on machine learning frameworks such as Tensorflow and PyTorch.  
-Note that we don’t consider afully automated online course feasible for the target audience, as their technical backgrounds are highly diverse and some students will require hands-on guidance.  
-However, the online materials allow a wide audience to get an overview of the topic and to try out at least some exercises on their own.
+Students will learn overall models of networks behind deep learning and Artificial Intelligence, start building AI with their familiar computational tools. 
+The course will focus on computational tools  and applications with only minimal mathematical formalism.  
+The course will provide application code templates built as packages in Python and in TensorFlow,  interfaced more fluidly with the common computational platforms that arts, design and game students are familiar with such as, Pure Data, Unity. 
+Students will use these templates to work on the course exercises as well as to build their artistic, design and game projects.
 
-## People
-Pilot leader:
+Students will learn the foundations of deep learning and procedural artistic and design content generation, understand how to build an AI, make a case study to determine how AI functions in arts, design and games; 
+utilising computational tools that are self-aware, perceive their own states and the state of the surrounding environment and are able to make decisions related to content generation processes.
 
-Koray Tahiroğlu, School of ARTS, Department of Media, Media Lab
+By the end of the course, students will know powerful ways to use advanced computational methods to manipulate data and to deploy advanced data tools for interaction ( arts, design, game) content analysis and synthesis.  
+Students will be skilled enough to build AI adaptable to any arts, design game environment in real life.
 
-+358504088441
-
-firstname.lastname@aalto.fi
-
-## Pedagogical methods used
-Flipped classroom, interactive visualizations / explorable explanations, contact teaching, practical exercises  and  examples with source code.
-
-## Tools used
-Python, Unity, Pure Data
+This is a project based course, students will be learning by doing, working on specific projects, receiving instant and customised feedback  on their work. References to scientific papers  will be provided for those who want to go deeper into the math. 
