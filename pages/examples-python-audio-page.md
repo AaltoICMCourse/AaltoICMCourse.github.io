@@ -10,7 +10,7 @@ permalink: "/examples/python-audio/"
 breadcrumb: true
 ---
 
-Here are the audio related python examples that will be used in the course. Currently those are just placeholders. Real contents are coming soon.
+Here are the audio related python examples that will be used in the course. Currently those are mostly placeholders. Real contents are coming soon.
 
 <div class="row">
     <div class="medium-6 columns t10 medium-centered text-center panel">

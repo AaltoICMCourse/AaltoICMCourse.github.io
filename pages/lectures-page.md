@@ -13,7 +13,7 @@ breadcrumb: true
 <div class="row">
     <div class="medium-6 columns t10 medium-centered text-center panel">
 	  <div>
-        The detailed lectures based on the syllabus will be coming soon. Below are just placeholders of the lectures.
+        The detailed lectures based on the syllabus is coming soon. Below are just placeholders of the lectures.
 	  </div>
 	</div>
 </div><!-- /.row -->
