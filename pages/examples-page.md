@@ -21,7 +21,7 @@ breadcrumb: true
   </div>
   <div class="large-4 columns">
         <a href="/examples/python-audio/">
-    <img src="http://placehold.it/303x170/e05a10/e1e75e&amp;text=Width+303+Pixel">
+    <img src="/images/unity-examples/examples-page-thumb.jpg">
   </a>
 	<h2 class="font-size-h3 t10">Python Examples for Audio</h2>
 	<p>short description </p>

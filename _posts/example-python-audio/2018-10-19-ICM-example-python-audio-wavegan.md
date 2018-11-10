@@ -16,8 +16,8 @@ tags:
     - Audio
     - Python
 image:
-    thumb:  homepage_typography-thumb.jpg
-    title: logo.png
+    thumb:  audio-examples/wavegan.png
+    title: audio-examples/wavegan.png
     caption: image caption
     caption_url: 
 author: xx

@@ -16,8 +16,8 @@ tags:
     - Audio
     - Python
 image:
-    thumb:  homepage_typography-thumb.jpg
-    title: logo.png
+    thumb:  audio-examples/audio-classification.png
+    title: audio-examples/audio-classification.png
     caption: image caption
     caption_url: 
 author: xx
