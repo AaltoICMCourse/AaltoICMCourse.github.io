@@ -10,7 +10,7 @@ header:
     background-color: "#4286f4;"
 categories:
     - example-python-audio
-permalink: /examples/python/audio/wavegan/
+permalink: /examples/python-audio/wavegan/
 mediaplayer: true
 tags:
     - Audio
