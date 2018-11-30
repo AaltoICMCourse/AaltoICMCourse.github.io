@@ -23,7 +23,9 @@ image:
 author: xx
 ---
 
-This page will be ready soon. Please view this instructions [Here](https://github.com/SopiMlab/MachineLearningWithAudio/blob/master/Documentation/UsingWavegan.md) for what is coming.
+WaveGAN is a sound generation system that takes in a big library of sounds and learns to create new examples of it using deep learning. This exercise is an instruction of how to train and use the WaveGAN.
+
+Please view this Github page for detailed instructions [Here](https://github.com/SopiMlab/MachineLearningWithAudio/blob/master/Documentation/UsingWavegan.md)
 
 {: .t60 }
 <!--

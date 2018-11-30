@@ -23,7 +23,9 @@ image:
 author: xx
 ---
 
-This page will be ready soon. Please view this instructions [Here](https://github.com/SopiMlab/MachineLearningWithAudio/blob/master/notebooks/Audio%20Classification.ipynb) for what is coming.
+Audio classication is to tell the type of a audio file. For example, we can train a system to tell whether a music is a  Beatles song or not, or what is the percentage of similarity.
+
+Please view this Github page for detailed instructions of how to train an use a audio classification using deep learning [Here](https://github.com/SopiMlab/MachineLearningWithAudio/blob/master/Documentation/AudioClassification.md)
 
 {: .t60 }
 <!--
